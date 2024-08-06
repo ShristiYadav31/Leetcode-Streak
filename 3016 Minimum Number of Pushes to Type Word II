@@ -10,7 +10,7 @@ class Solution:
         count = 0
         j = 1
         
-        # Calculate minimum pushes based on character priority
+    
         while max_heap:
             freq, char = heapq.heappop(max_heap)
             freq = -freq  # Convert back to positive frequency
